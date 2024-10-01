@@ -48,7 +48,7 @@ def program():
         if (lennber < 13 or lennber > 13):
             delay_print(f"{Fore.RED}Number must be 13 digits\n")
             program()
-        elif (lennber==10):
+        elif (lennber==13):
             delay_print(f"{Fore.YELLOW}1) Ban number\n")
             delay_print(f"{Fore.YELLOW}2) Information about this number\n")
             option = input(f"{Fore.YELLOW}[+] Choose an option: ")
